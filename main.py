@@ -35,9 +35,7 @@ def perform_translation(target_language: str, word: str, source_language: Option
     soup = lxml.html.fromstring(got.text)
 
     source_examples = soup.xpath("//div[@class='src ltr']/span[@class='text']")
-
     target_examples = soup.xpath("//div[@class='trg ltr']/span[@class='text']")
-
     target_highlights = soup.xpath("//div[@class='trg ltr']/span[@class='text']//em")
 
     outputJSON = []
