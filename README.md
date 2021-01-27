@@ -1,4 +1,4 @@
-script to request translations and examples from reverso.net
+### script to request translations and examples from reverso.net
 
 for a simple translation into english use:
 
